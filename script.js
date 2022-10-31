@@ -9,7 +9,8 @@ server.set('view engine', 'ejs')
 let host = process.env.HOST || 'localhost'
 let port = process.env.PORT || '8087'
 
-server.use(express.static("public"))
+const assetPath = __dirname + "/Public";
+server.use("/public", express.static(assetPath));
 server.use(express.urlencoded())
 
 server.get('/', (request, response) => {
