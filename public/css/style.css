@@ -1,10 +1,12 @@
-html{
+html {
     overflow: scroll;
 }
 
 body {
     min-height: 100vh;
     min-height: -webkit-fill-available;
+    background: #ffeeee;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 html {
@@ -15,11 +17,9 @@ main {
     height: 100vh;
     height: -webkit-fill-available;
     max-height: 100vh;
-    overflow-x: auto;
-    overflow-y: hidden;
 }
 
-.nav-link:hover{
+.nav-link:hover {
     background-color: rgb(228, 63, 63);
 }
 
@@ -31,4 +31,29 @@ main {
     float: left;
     width: 50%;
     text-align: center;
-  }
+}
+
+h1 {
+    font-size: 55px;
+    font-weight: 600;
+    color: black;
+    background-clip: text;
+    -webkit-background-clip: text;
+    text-decoration: underline;
+    text-shadow: 4px 4px 5px white;
+}
+
+p {
+    font-size: 18px;
+    color: black;
+    font-weight: lighter;
+    text-align: center;
+    letter-spacing: 2px;
+    word-spacing: 4px;
+    padding-top: 10px;
+}
+
+#img{
+    border-radius: 5px;
+    margin-right: 20px;
+}

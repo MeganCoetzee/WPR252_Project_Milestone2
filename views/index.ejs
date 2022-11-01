@@ -12,9 +12,9 @@
 </head>
 
 <body>
-    <main class="d-flex flex-nowrap">
+    <main class="container-fluid">
         <%- include(`./partials/sidebar.ejs`) %>
-            <div class="container mt-1">
+            <div class="col offset-3">
                 <!-- About Section -->
                 <div class="row">
                     <h1 class="text-center" id="about-me">About me</h1>
@@ -23,71 +23,69 @@
                         communicator and conflict manager. My goal is to become a successful software developer/project
                         manager. I am professional, goal-oriented, a problem solver and organized.</p>
                 </div>
+                <hr>
                 <!-- Skills Section -->
                 <div class="row">
                     <h1 class="text-center" id="skills">Skills</h1>
-                        <div class="row">
-                            <div class="column">
-                                <ul>
-                                    <li>C#</li>
-                                    <li>SQL</li>
-                                    <li>CSS</li>
-                                    <li>MS Office Suite</li>
-                                    <li>MS SQL Server</li>
-                                </ul>
-                            </div>
-                            <div class="column">
-                                <ul>
-                                    <li>HTML5</li>
-                                    <li>JavaScript</li>
-                                    <li>Node JS</li>
-                                    <li>Express</li>
-                                    <li>Mongoose</li>
-                                </ul>
-                            </div>
+                    <div class="row">
+                        <div class="column">
+                            <ul>
+                                <li>C#</li>
+                                <li>SQL</li>
+                                <li>CSS</li>
+                                <li>MS Office Suite</li>
+                                <li>MS SQL Server</li>
+                            </ul>
                         </div>
+                        <div class="column">
+                            <ul>
+                                <li>HTML5</li>
+                                <li>JavaScript</li>
+                                <li>Node JS</li>
+                                <li>Express</li>
+                                <li>Mongoose</li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
+                <hr>
                 <!-- Project Section -->
                 <h1 class="text-center" id="projects">Projects</h1>
                 <div class="row justify-content-center">
-                    <div class="card col-4 m-4" style="width: 18rem;">
-                        <img src="..." class="card-img-top" alt="...">
+                    <div class="card col-4 m-4 text-center" style="width: 18rem;">
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of
-                                the card's content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                            <h5 class="card-title">Education Notification System</h5>
+                            <hr>
+                            <p class="card-text">Application that notifies parents of schools in the area when their
+                                child comes of age.</p>
+                            <a href="#" class="btn btn-danger">View Project</a>
                         </div>
                     </div>
-                    <div class="card col-4 m-4" style="width: 18rem;">
-                        <img src="..." class="card-img-top" alt="...">
+                    <div class="card col-4 m-4 text-center" style="width: 18rem;">
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of
-                                the card's content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                            <h5 class="card-title">Bug Tracking System</h5>
+                            <hr>
+                            <p class="card-text">Application that keeps track of reported software bugs in software
+                                development projects.
+                            </p>
+                            <a href="#" class="btn btn-danger">View Project</a>
                         </div>
                     </div>
-                    <div class="card col-4 m-4" style="width: 18rem;">
-                        <img src="..." class="card-img-top" alt="...">
+                    <div class="card col-4 m-4 text-center" style="width: 18rem;">
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of
-                                the card's content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                            <h5 class="card-title">Waterpark Booking System</h5>
+                            <hr>
+                            <p class="card-text">Application where customers can book tickets to go to a waterpark.</p>
+                            <a href="#" class="btn btn-danger">View Project</a>
                         </div>
                     </div>
                 </div>
                 <!-- Contact Section-->
                 <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
                     <div class="col-md-11 d-flex align-items-center">
-                        <img src="../../public/images/logo.png" alt="logo">
+                        <img src="../../public/images/logo.png" alt="logo" id="img">
                         <span class="mb-3 mb-md-0 text-muted" id="contact">&copy; 2022 Copyright: Megan Coetzee CV
-                            Website.</span>
-                        <span class="mb-3 mb-md-0 text-muted">Email: mcoetzee874@gmail.com</span>
+                            Website. <strong class="invisible">12345</strong> Email: mcoetzee874@gmail.com</span>
                     </div>
 
                     <div class="nav col-md-1 justify-content-end list-unstyled d-flex">
