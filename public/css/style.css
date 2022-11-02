@@ -72,3 +72,12 @@ p {
     background-color: rgb(201, 99, 99);
     margin-top: 10px;
 }
+
+#me {
+    height: 175px;
+    width: 110px;
+    border-radius: 5px;
+    border: 2px solid whitesmoke;
+    box-shadow: 10px 10px 5px #ccc;
+    -webkit-box-shadow: 10px 10px 5px rgb(201, 99, 99);
+}
